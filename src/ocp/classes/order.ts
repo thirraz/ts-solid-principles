@@ -1,5 +1,5 @@
 //interfaces
-import { OrderStatus } from "../entities/interfaces/orderStatus"
+import { OrderStatus } from "../classes/interfaces/orderStatus"
 
 //classes
 import { Messaging } from "../services/messaging"
