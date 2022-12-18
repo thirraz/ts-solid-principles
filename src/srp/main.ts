@@ -1,3 +1,5 @@
+//srp
+
 // main is a place to import all dependencies, inject dependencies, start program, etc
 
 import { Order } from "./classes/order"
