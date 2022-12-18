@@ -1,5 +1,6 @@
 //interfaces
 import { OrderStatus } from "./interfaces/orderStatus"
+import { CustomerOrder } from "./interfaces/customerProtocol"
 
 //classes
 import { Messaging } from "../services/messaging"
@@ -13,6 +14,7 @@ export class Order {
           private readonly cart: ShoppingCart,
           private readonly messaging: Messaging,
           private readonly persistency: Persistency,
+          private readonly customer: CustomerOrder,
      ) {}
 
      get orderStatus(): OrderStatus {
@@ -31,5 +33,8 @@ export class Order {
           )
           this.persistency.saveOrder()
           this.cart.clear()
+          console.log(
+               `Client Name: ${this.customer.getName()}, Client Identification Number: ${this.customer.getIDN()}`,
+          )
      }
 }

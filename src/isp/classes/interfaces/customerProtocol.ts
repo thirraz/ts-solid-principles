@@ -1,8 +1,12 @@
+export interface CustomerOrder {
+     getName(): string
+     getIDN(): string //Identification Number
+}
+
 export interface IndividualCustomerProtocol {
      firstName: string
      lastName: string
      cpf: string
-     cnpj: string
 }
 
 export interface EnterpriseCustomerProtocol {
