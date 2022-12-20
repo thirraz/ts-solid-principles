@@ -21,6 +21,7 @@
      },
      "scripts": {
           "test": "jest",
-          "test:silent": "jest --watchAll --silent --noStackTrace"
+          "test:silent": "jest --watchAll --silent --noStackTrace",
+          "test:coverage": "jest --coverage --silent --noStackTrace"
      }
 }

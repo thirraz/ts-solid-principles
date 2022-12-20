@@ -3,7 +3,7 @@ import { CartItem } from "./interfaces/cartItem"
 import { OrderStatus } from "./interfaces/orderStatus"
 
 //classes
-import { Discount } from "./interfaces/discount"
+import { Discount } from "./discount"
 import { ShoppingCartProtocol } from "./interfaces/shopping-cart-protocol"
 
 export class ShoppingCart implements ShoppingCartProtocol {

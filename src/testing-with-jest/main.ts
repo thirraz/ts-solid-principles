@@ -11,7 +11,7 @@ import {
      FiftyPercentDiscount,
      TenPercentDiscount,
      NoDiscount,
-} from "./classes/interfaces/discount"
+} from "./classes/discount"
 import { MessagingProtocol } from "./classes/interfaces/messaging-protocol"
 
 // const fiftyPercentDiscount = new FiftyPercentDiscount()
